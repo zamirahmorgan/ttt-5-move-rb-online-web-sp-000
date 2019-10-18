@@ -14,3 +14,7 @@ end
 def move(board, index, player)
   board[index] = player
 end
+
+display_board
+input_to_index
+move
