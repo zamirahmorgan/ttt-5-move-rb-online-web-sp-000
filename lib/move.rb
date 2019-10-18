@@ -16,5 +16,5 @@ def move(board, index, player)
 end
 
 display_board
-input_to_index
-move
+input_to_index(user_input)
+move(board, index, player)
